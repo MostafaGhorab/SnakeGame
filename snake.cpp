@@ -6,8 +6,8 @@ using namespace std;
 #include <windows.h>
 #define MAX_TAIL_LEN 100
 bool gameOver = 0;
-unsigned int x,y ;
-unsigned int fruitX , fruitY;
+unsigned int x,y ; /*x and y are coordinates of head*/
+unsigned int fruitX , fruitY; /*coordinates of fruit*/
 unsigned int score ;
 eDir dir ;
 unsigned int tailCount ;
