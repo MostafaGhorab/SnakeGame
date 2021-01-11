@@ -26,11 +26,11 @@ typedef enum
 }eDir ;
 
 
-void Setup (void);
+void Setup (void); /*responsible for the initialization of the variables like the start location of head , fruit and so on*/
 
-void Draw (void);
+void Draw (void); 
 
-void Input (void);
+void Input (void); /*checks for the direction by getting input from user Asynchrounsly(without stopping the program execution waiting for input*/
 
 void Logic (void);
 
