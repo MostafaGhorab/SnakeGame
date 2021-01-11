@@ -11,7 +11,7 @@ unsigned int fruitX , fruitY; /*coordinates of fruit*/
 unsigned int score ;
 eDir dir ;
 unsigned int tailCount ;
-unsigned int tailX[MAX_TAIL_LEN];
+unsigned int tailX[MAX_TAIL_LEN]; /*keep track of dimensions of all the tail*/
 unsigned int tailY[MAX_TAIL_LEN];
 void Setup (void)
 {
