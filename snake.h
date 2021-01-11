@@ -30,7 +30,7 @@ void Setup (void); /*responsible for the initialization of the variables like th
 
 void Draw (void); 
 
-void Input (void); /*checks for the direction by getting input from user Asynchrounsly(without stopping the program execution waiting for input*/
+void Input (void); /*checks for the direction by getting input from user Asynchrounsly(without stopping the program execution waiting for input)*/
 
 void Logic (void);
 
